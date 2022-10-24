@@ -6,8 +6,7 @@ def fibonacci(n):
     for i in range(n):
         result.append(num1+num2)
         aux = num1 + num2
-        num1 = num2
-        num2 = aux
+        num1, num2 = num2, aux
     return print(result)
 
 def run():
