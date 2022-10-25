@@ -26,7 +26,7 @@ def run():
     valor = int(input("Write one number. Is this a prime number?: "))
     if is_valid_number(valor)==True:
         is_prime(valor)
-    #is_prime(43)
+
 
 if __name__=='__main__':
     run()
