@@ -5,7 +5,7 @@ int main()
     int myNum, control = 0, aux;
     printf("Write a numbre. Is a prime number?: \n");
     scanf("%d", &myNum);
-    
+
     for ( int i = 2; i < myNum && control!= 1; i++)
     {
         aux = myNum % i;
